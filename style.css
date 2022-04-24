@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.logo{
+    left: 16px;
+    width: 300px;
+    height: 210px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+/*navbar design*/
+.navbar{
+    position:fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar .width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo_text a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .select li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .select li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+
+/*Homepage design*/
+.home{
+    display: flex;
+    background-color: darkorange;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    font: 60px bold;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.Picture{
+    width: 500px;
+    height: 500px;
+    display: block;
+    position: fixed;
+    top: 300px;
+    left: 1100px;
+    
+    
+}
+
+/*About design*/
+.about{
+    background-color: dimgrey;
+    
+    
+}
+.about .max-width{
+    margin: auto 0 auto 40px;
+}
+
+
+.works{
+    background-color: darkorange;
+}
+img.web{
+    width: 700px;
+    height: 500px;
+    display: block;
+    position: fixed;
+    left: 1000px;
+    top: 300px;
+}
+.max-content{
+    font-size:medium;
+    color: white;
+    position: fixed;
+    top: 500px;
+    left: 300px;
+}
+img.web2{
+    width: 700px;
+    height: 500px;
+    display: block;
+    position: fixed;
+    left: 1000px;
+    top: 700px;
+}
